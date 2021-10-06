@@ -1,0 +1,19 @@
+{
+  "name": "location-filter-service",
+  "version": "1.0.0",
+  "description": "An API service which returns people who are listed as either living in London, or whose current coordinates are within 50 miles of London.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sneptx/location-filter-service.git"
+  },
+  "author": "SPT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sneptx/location-filter-service/issues"
+  },
+  "homepage": "https://github.com/sneptx/location-filter-service#readme"
+}
