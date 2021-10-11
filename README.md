@@ -11,8 +11,8 @@ An API service which returns a list of users who are listed as either living in 
 
 To start the service, navigate to the project root directory and run the following commands:
 
-> `$ npm  install`
-> `$ npm  start`
+- `$ npm  install` to install service dependencies, then
+- `$ npm  start` to start the service
 
 The service will start on the `localhost` on port `3000` 
 
