@@ -4,6 +4,7 @@
   "description": "An API service which returns people who are listed as either living in London, or whose current coordinates are within 50 miles of London.",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/sneptx/location-filter-service/issues"
   },
-  "homepage": "https://github.com/sneptx/location-filter-service#readme"
+  "homepage": "https://github.com/sneptx/location-filter-service#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.22.0",
+    "express": "^4.17.1",
+    "geolib": "^3.3.1"
+  }
 }
